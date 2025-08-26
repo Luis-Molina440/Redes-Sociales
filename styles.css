@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.container{
+    text-align: center;
+    height: 80vh;
+    width: 45vh;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 20px;
+    
+}
+
+.img img{
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.sobre-mi p{
+    color: hsl(75, 94%, 57%);
+}
+
+.redes {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 10px;              
+    margin-top: 20px;
+}
+
+.redes a {
+    width: 90%;                  
+}
+
+.redes p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    height: 50px;
+    width: 100%;
+    background-color: hsl(0, 0%, 12%);
+    margin: 0;
+    
+}
+
+.redes p:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+@media (min-width:700px) {
+    .container{
+        max-width: 60vh;
+        height: 85vh;
+    }
+
+    .redes{
+        gap: 15px;
+    }
+
+    .redes p{
+        height: 60px;
+    }
+    
+}
